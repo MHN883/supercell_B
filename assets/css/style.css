@@ -1,0 +1,50 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main {
+    
+     >.part1 {
+        min-height: 50vh;
+        width: 100%;
+        background-image: url(../img/1.webp);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+                  >div {
+                    width: 250px;
+                    flex-direction: column;
+                    >h1 {
+                        font-size: 70px;
+                    }
+                    >p {
+                        color: black;
+                        font-size: 15px;
+                        width: 200px;
+                        font-weight: bold;
+                        
+                        
+                       
+                    }
+                    >button {
+                        border-radius: 30px;
+                    }
+                  }
+     }
+
+
+    >footer {
+        background-color: #000;
+    };
+}
+
+
+
+
+
+
